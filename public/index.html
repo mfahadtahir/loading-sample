@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        /* margin: 20px; */
+        font-size:30px;
+      }
+      div{
+        display: inline-block;
+        min-width: 200px;
+      }
+    </style>
+</head>
+<body style="margin: 2px auto; width: 300px" >
+  <h3>Loading Example</h3>
+    <ul>
+      <li>
+        <div class="divs" id="0">task 0</div>
+        <span id="span-0">&#10060;</span>
+      </li>
+      <li>
+        <div class="divs" id="1">task 1</div>
+        <span id="span-1">&#10060;</span>
+      </li>
+      <li>
+        <div class="divs" id="2">task 2</div>
+        <span id="span-2">&#10060;</span>
+      </li>
+      <li>
+        <div class="divs" id="3">task 3</div>
+        <span id="span-3">&#10060;</span>
+      </li>
+      <li>
+        <div class="divs" id="4">task 4</div>
+        <span id="span-4">&#10060;</span>
+      </li>
+      <li>
+        <div class="divs" id="5">task 5</div>
+        <span id="span-5">&#10060;</span>
+      </li>
+      <li>
+        <div class="divs" id="6">task 6</div>
+        <span id="span-6">&#10060;</span>
+      </li>
+
+    </ul>
+    <div>
+      <progress id="upload" value="0" max="100"> 0% </progress>
+    </div>
+    <br />
+    <div style="display: flex; justify-content: space-between;" >
+      <button onclick="startLoading()" >start</button>
+      <button onclick="resetLoading()" >reset</button>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
+
+
+
+<!-- tick -->
+<!-- &#9989; -->
+
+<!-- cross -->
+<!-- &#10060; -->
